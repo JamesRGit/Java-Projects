@@ -1,16 +1,16 @@
-Snake Game (Java Swing)
+Snake Game
 
-This is a classic implementation of the Snake game, built from scratch using only Java and the Swing library for the GUI.
+This is a classic implementation of the Snake game, built from scratch using Java and the Swing library for the GUI.
 
 Features:
 
-Start Screen: The game waits for the user to "Press Enter to Play."
-Game Over Screen: Displays the final score and offers options to "Press Enter to Restart" or "Press Esc to Quit."
-Score Tracking: The score increases as the snake eats food.
-Smooth Controls: Uses a Swing Timer for the game loop and KeyAdapter for responsive arrow key controls (no "Enter" key required!).
-Safe Quit: The 'Escape' key can be used at any time (on the start screen, in-game, or on the game over screen) to safely close the application.
+- Start Screen: The game waits for the user to "Press Enter to Play."
+- Game Over Screen: Displays the final score and offers options to "Press Enter to Restart" or "Press Esc to Quit."
+- Score Tracking: The score increases as the snake eats food.
+- Smooth Controls: Uses a Swing Timer for the game loop and KeyAdapter for responsive arrow key controls (no "Enter" key required!).
+- Safe Quit: The 'Escape' key can be used at any time (on the start screen, in-game, or on the game over screen) to safely close the application.
 
-How to Build and Run
+How to Build and Run:
 
 This is a Maven-based project. You must have Java and Maven installed to run it.
 
