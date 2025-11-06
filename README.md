@@ -4,4 +4,4 @@ Welcome! This repository is a collection of some projects I've built to demonstr
 Each project is contained within its own folder and is built using Maven.
 
 Projects:
-- **Snake Game:** A classic implementation of the Snake game built entirely with Java Swing.
+[- **Snake Game:** A classic implementation of the Snake game built entirely with Java Swing.](https://github.com/JamesRGit/Java-Projects/tree/main/SnakeGame)
