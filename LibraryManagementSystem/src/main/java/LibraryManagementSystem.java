@@ -13,6 +13,19 @@ import java.util.InputMismatchException;
 import java.util.Optional;
 import java.util.Scanner;
 
+/**
+ * A console-based Library Management System application.
+ *
+ * How it works:
+ * - The main class `LibraryManagementSystem` handles the console UI (menus)
+ * and user input via `Scanner`.
+ * - The `Library` class holds all business logic and data (in ArrayLists).
+ * - Data models (`Book`, `Member`, `Loan`) are simple POJOs.
+ * - All classes are in this single file for easy compilation.
+ * - Custom exceptions (`ItemNotFoundException`, etc.) are used for error handling.
+ * - Persistence is achieved by serializing the main `Library` object to
+ * a file (`library.dat`) on exit and loading it on startup.
+ */
 
 //  Custom Exceptions for Business Logic
 /**
@@ -664,4 +677,5 @@ public class LibraryManagementSystem {
             System.out.println("Error saving library data: " + e.getMessage());
         }
     }
+
 }
