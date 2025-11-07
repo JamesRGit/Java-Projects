@@ -16,11 +16,15 @@ This is a Maven-based project. You must have Java and Maven installed to run it.
 
 **Compile the project:**
 
-```mvn compile```
+```bash
+mvn compile
+```
 
 **Run the application:**
 
-```mvn exec:java -Dexec.mainClass="SnakeGame"```
+```bash
+mvn exec:java -Dexec.mainClass="SnakeGame"
+```
 
 A new window will open, and the game will start.
 
