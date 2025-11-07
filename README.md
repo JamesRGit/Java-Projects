@@ -8,3 +8,4 @@ Projects:
 - [**Library Management System:**](https://github.com/JamesRGit/Java-Projects/tree/main/LibraryManagementSystem) This is a simple, console-based Library Management System
 - [**Chat Server:**](https://github.com/JamesRGit/Java-Projects/tree/main/ChatSever) This project is a classic, simple implementation of a multi-client chat room using Java sockets for networking and threads for concurrency.
 - [**Banking App:**](https://github.com/JamesRGit/Java-Projects/tree/main/BankingApp) This is a simple command-line banking application written in Java
+- [**Expense Tracker:**](https://github.com/JamesRGit/Java-Projects/tree/main/ExpenseTracker) This is a simple desktop application for tracking personal expenses, built with JavaFX.
