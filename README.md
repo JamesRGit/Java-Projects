@@ -1,4 +1,4 @@
-# James Grant's Java Project Portfolio
+# Java Project Portfolio
 
 Welcome! This repository is a collection of some projects I've built to demonstrate my skills in Java and software engineering principles.
 Each project is contained within its own folder and is built using Maven.
