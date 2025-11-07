@@ -110,8 +110,6 @@ public class SnakeGame extends JPanel implements ActionListener {
         }
 
         placeFood();
-
-        // DO NOT start the timer here.
     }
 
     /**
@@ -294,7 +292,6 @@ public class SnakeGame extends JPanel implements ActionListener {
                     initGame(); // Restart the game
                     timer.start(); // Start the timer again
                 }
-                // 'Esc' is already handled by setupEscapeKey()
             } else {
                 // In-game, handle directions
                 // Prevent 180-degree turns
