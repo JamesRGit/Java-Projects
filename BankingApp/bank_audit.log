@@ -1,0 +1,8 @@
+[2025-11-07T12:43:56.1066534] Created Account: ACCT-102C3800 for James with initial deposit $200.0
+[2025-11-07T12:44:15.0572684] Deposit: $500.0 to Account: ACCT-102C3800
+[2025-11-07T12:46:34.1583388] Created Account: ACCT-4FBD2AC5 for James with initial deposit R0.0
+[2025-11-07T12:47:05.7690349] Created Account: ACCT-B0C94845 for Jamess with initial deposit R0.0
+[2025-11-07T12:47:26.4279515] Deposit: R500.0 to Account: ACCT-B0C94845
+[2025-11-07T12:47:49.1933965] Withdrawal: R200.0 from Account: ACCT-B0C94845
+[2025-11-07T12:48:30.7098932] Deposit: R500.0 to Account: ACCT-4FBD2AC5
+[2025-11-07T12:49:38.3001097] Transfer: R200.0 from ACCT-4FBD2AC5 to ACCT-B0C94845
