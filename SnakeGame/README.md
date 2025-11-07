@@ -14,12 +14,6 @@ Features:
 
 This is a Maven-based project. You must have Java and Maven installed to run it.
 
-**Clone the repository (if you haven't already).**
-
-**Navigate to the project directory**:
-
-```cd SnakeGame```
-
 **Compile the project:**
 
 ```mvn compile```
