@@ -1,6 +1,6 @@
 # Java Library Management System (Console App)
 
-This is a simple, console-based Library Management System written in Java. It demonstrates core Object-Oriented Programming (OOP) principles, exception handling, and data persistence using Java's built-in serialization.
+This is a simple, console-based Library Management System written in Java.
 
 The entire application is contained within a single `LibraryManagementSystem.java` file for ease of compilation and execution.
 
@@ -35,7 +35,7 @@ The entire application is contained within a single `LibraryManagementSystem.jav
 
 **Exception Handling:**
 
-- Uses custom exceptions (`ItemNotFoundException, DuplicateItemException, LoanException`) to handle business logic errors gracefully (e.g., trying to add a duplicate book, loaning a book that's already out).
+- Uses custom exceptions (`ItemNotFoundException`, `DuplicateItemException`, `LoanException`) to handle business logic errors gracefully (e.g., trying to add a duplicate book, loaning a book that's already out).
 
 ## How to Compile and Run
 
@@ -62,10 +62,11 @@ The `LibraryManagementSystem.java` file is internally organized into several cla
 - Manages the main application loop.
 - Orchestrates calls to the `Library` service.
 - Manages saving (`saveLibrary()`) and loading (`loadLibrary()`) data.
-(`Library` **(package-private class):**
+
+`Library` **(package-private class):**
 - The core "service" class that holds the business logic.
 - Contains the lists for `books`, `members`, and `loans`.
-- Provides methods for all CRUD and loan operations (e.g., `addBook, checkoutBook`.
+- Provides methods for all CRUD and loan operations (e.g., `addBook`, `checkoutBook`.
 - Implements `Serializable` so the entire state can be saved.
 
 **Data Models (package-private classes):**
