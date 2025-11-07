@@ -44,11 +44,15 @@ The entire application is contained within a single `LibraryManagementSystem.jav
 3. Open a terminal or command prompt and navigate to the directory containing the file.
 4. **Compile:**
 
-```javac LibraryManagementSystem.java```
+```bash
+javac LibraryManagementSystem.java
+```
 
 **Run:**
 
-```java LibraryManagementSystem```
+```bash
+java LibraryManagementSystem
+```
 
 6. The program will start, and a `library.dat` file will be created in the same directory to store data.
 
@@ -66,7 +70,7 @@ The `LibraryManagementSystem.java` file is internally organized into several cla
 `Library` **(package-private class):**
 - The core "service" class that holds the business logic.
 - Contains the lists for `books`, `members`, and `loans`.
-- Provides methods for all CRUD and loan operations (e.g., `addBook`, `checkoutBook`.
+- Provides methods for all CRUD and loan operations (e.g., `addBook`, `checkoutBook`).
 - Implements `Serializable` so the entire state can be saved.
 
 **Data Models (package-private classes):**
