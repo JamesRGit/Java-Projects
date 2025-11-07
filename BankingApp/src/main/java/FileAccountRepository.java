@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
  * File Format:
  * line 1: customerName
  * line 2: balance
- * line 3: ---Transactions---
+ * line 3: Transactions
  * line 4...N: [Transaction.toPersistString()]
  */
 public class FileAccountRepository implements AccountRepository {

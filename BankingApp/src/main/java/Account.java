@@ -91,7 +91,6 @@ public class Account {
         System.out.printf("--- Current Balance: R%.2f ---%n", balance);
     }
 
-    // --- Getters ---
     public String getAccountId() {
         return accountId;
     }

@@ -57,8 +57,7 @@ public class Transaction {
      * Uses a simple comma-separated format.
      */
     public String toPersistString() {
-        // Simple CSV-like format: TYPE,AMOUNT,TIMESTAMP,DESCRIPTION
-        // Replace commas in description to avoid breaking CSV
+        // Format: TYPE,AMOUNT,TIMESTAMP,DESCRIPTION
         String cleanDescription = description.replace(",", ";");
         return String.format("%s,%f,%s,%s",
                 type.name(),

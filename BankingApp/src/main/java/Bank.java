@@ -20,7 +20,7 @@ public class Bank {
         this.logger = TransactionLogger.getInstance();
         this.accounts = new HashMap<>();
 
-        // Eagerly load all accounts from persistence on startup
+        // Load all accounts from persistence on startup
         loadAllAccounts();
     }
 
@@ -135,7 +135,6 @@ public class Bank {
                 return true;
             } else {
                 // This should ideally not fail, but if it does, we must roll back.
-                // This is a simple rollback. Real systems use database transactions.
                 System.err.println("CRITICAL ERROR: Deposit failed after withdrawal. Rolling back withdrawal.");
                 fromAcc.deposit(amount, "ROLLBACK: Failed transfer to " + toAccountId);
                 logger.log("CRITICAL: Rollback processed for " + fromAccountId + " due to failed transfer deposit.");
